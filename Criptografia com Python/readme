@@ -1,0 +1,24 @@
+Este código cria um menu simples em Python que permite ao usuário escolher entre criptografar e descriptografar uma mensagem utilizando a Cifra de César. Ele também inclui um espaço reservado para a implementação de um segundo algoritmo de criptografia.
+
+Explicação do Código:
+Função main_menu:
+
+Exibe o menu principal com três opções: criptografar, descriptografar ou sair.
+Dependendo da escolha do usuário, a função chama o menu de criptografia (criptografar_menu) ou o de descriptografia (descriptografar_menu).
+Se a opção for "3", o programa se encerra.
+Função criptografar_menu:
+
+Permite ao usuário escolher entre a Cifra de César ou outro algoritmo (que ainda não foi implementado).
+Se o usuário escolher a Cifra de César, ele insere a mensagem e a chave de deslocamento, e o programa exibe a mensagem criptografada.
+Função descriptografar_menu:
+
+Similar à função de criptografia, mas usada para descriptografar a mensagem. O usuário escolhe o algoritmo, insere a mensagem e a chave, e o programa exibe a mensagem descriptografada.
+Funções cifra_de_cesar_criptografar e cifra_de_cesar_descriptografar:
+
+Essas funções executam a lógica da Cifra de César.
+A função de criptografia desloca cada caractere da mensagem de acordo com a chave fornecida.
+A função de descriptografia usa a mesma função de criptografia, mas com a chave negativa (invertendo o deslocamento).
+Como Funciona:
+O usuário interage com o menu, escolhe se deseja criptografar ou descriptografar, seleciona o algoritmo desejado, insere a mensagem e a chave, e o resultado (criptografado ou descriptografado) é exibido.
+
+A implementação do segundo algoritmo ainda está ausente, mas pode ser adicionada na função criptografar_menu e descriptografar_menu.
